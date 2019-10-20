@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>L200170029</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Riris Agriela</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Theory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">-SELAMAT DATANG-</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Selamat Membaca</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Tentang Aku</h2>
+          <p class="text-white-50">Halo namaku Riris Agriela Savitri. Mahasiswa Universitas Muhammadiyah Surakarta prodi Informatika 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        
+          <img class="img-fluid mb-3 mb-lg-0" src="sqlll.png" width="600" height="600" alt="">
+        </div>
+        
+          <div class="featured-text text-center text-lg-left">
+            <h1>Daftar Perintah SQL</h1>
+        <div class="row">
+			<p class="text-left"><strong>Structured Query Language</strong> atau biasa disebut SQL adalah suatu bahasa khusus yang digunakan untuk mengakses data-data yang 
+			ada di dalam sebuah database relasional.</br>
+			</br>
+			SQL adalah bahasa komputer yang menggunakan standar ANSI (American Nasional Standard Institute) yang dipakai dalam manajemen database relasional.
+			Dengan SQL atau bisa juga disebut query kita dapat memanipulasi atau mengedit database sesuai yang kita kehendaki. seperti menjalankan query untuk mengambil data, 
+			menambah data, memperbarui data dan menghapus data.</br>
+			Sampai sekarang hampir keseluruhan server database maupun software – software database lainnya mengenal serta mampu mengartikan bahasa SQL.
+			oleh karenanya belajar bahasa SQL sangat penting bagi yang bergelut dibidang IT maupun yang selalu bersinggungan dengan database relasional.</p>
+
+				<ol class="text-left" type="1">
+					<li><strong>Create Database</strong></li>
+						<p>Digunakan untuk membuat database baru.</br>
+						Syntax dasar:</br>
+						CREATE DATABASE database_nama</br>
+						Contoh:</br>
+						CREATE DATABASE databaseku</p></br>
+		
+					<li><strong>Create Table</strong></li>
+						</p>Digunakan untuk membuat tabel data baru dalam sebuah database.</br>
+						Syntax dasar:</br>
+						CREATE TABLE(</br>
+						Column_name1 table_nama data_type</br>
+						Column_name2 table_nama data_type</br>
+						Column_name3 table_nama data_type</br>
+						)</br>
+						Contoh:</br>
+						CREATE TABLE bukutamu(Id int,Nama varchar (255),Email varchar(50),Kota varchar(255))</p></br>
+
+					<li><strong>Select</strong></li>
+						<p>Digunakan untuk memilih data dari table database.</br>
+						Syntax dasar:</br>
+						SELECT column_name(s)</br>
+						FROM table_name</br>
+						Atau</br>
+						SELECT * FROM table_name</br></br>
+						Contoh 1:</br>
+						SELECT nama,email FROM bukutamu</br></br>
+						Contoh 2:</br>
+						SELECT * FROM bukutamu</p></br>
+
+					<li><strong>Select Distinct</strong></li>
+						</p>Digunakan untuk memilih data-data yang berbeda (menghilangkan duplikasi) dari sebuah table database.</br>
+						Syntax dasar:</br>
+						SELECT DISTINCT column_name(s)</br>
+						FROM table_name</br></br>
+						Contoh:</br>
+						SELECT DISTINCT kota FROM bukutamu</p></br>
+			
+					<li><strong>Where</strong></li>
+						<p>Digunakan untuk memfilter data pada perintah Select</br>
+						Syntax dasar:</br>
+						SELECT column name(s)</br>
+						FROM table_name</br>
+						WHERE column_name operator value</br></br>
+						Contoh:</br>
+						SELECT * FROM bukutamu WHERE kota=’YOGYAKARTA’</p>
+				</ol>
+				<br>
+</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="empat.jpg" alt="" height="3700" width="1000" align="center">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-110 project">
+            <div class="d-flex h-110">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Data Definition Language</h4>
+                <p class="text-white"><strong>Data Definition Language atau Data Description Language</strong> yaitu kumpulan perintah pada SQL untuk menggambarkan desain dari database secara menyeluruh.
+			</br></br>
+
+			<strong>DDL (Data Definition Language)</strong> berfungsi untuk membuat, merubah dan menghapus struktur data pada database. Perintah lain seperti SELECT dan INSERT tidak ada pada DDL 
+			karena lebih masuk kearah DML (Data Manipulation Language). Sedangkan perintah CONNECT dan EXECUTE ada pada DCL (Data Control Language). 
+			DDL, DML, dan juga DCL sama sama bisa digunakan pada SQL</br></br>
+
+			Berikut adalah beberapa perintah pada DDL </p>
+				<ul class="text-white" type="circle"><strong>Perintah Membuat (Create)</strong>
+					<li>Create database berfungsi untuk membuat database baru</li>
+					<li>Create Function berfungsi untuk membuat fungsi pada database</li>
+					<li>Create index berfungsi untuk membuat index pada database</li>
+				</ul>
+
+				<ul class="text-white" type="circle"><strong>Perintah Merubah (Alter)</strong>
+					<li>Perintah yang digunakan untuk merubah struktur dari sebuah tabel.</li>
+				</ul>
+				<ul class="text-white" type="circle"><strong>Perintah menghapus (Drop)</strong>
+					<li>Drop Database yaitu perintah yang berfungsi untuk menghapus database (Contoh: DROP nama_database;)</li>
+					<li>Drop Table yaitu perintah yang digunakan untuk menghapus tabel pada database</li>
+				</ul>          
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="lima.jpg" alt="" height="1300" width="900" align="center">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Data Manipulation Language</h4>
+                <p class="mb-0 text-white-50"><strong>Data Manipulation Language</strong> merupakan merupakan perintah-perintah yang memungkinkan pengguna melakukan akses dan manipulasi data sebagaimana yang telah diorganisasikan sebelumnya dalam model data yang tepat, Data Manipulation Language digunakan untuk memanipulasi database yang telah didefinisikan dengan DDL.
+				</br>
+				</br>
+				
+				Berikut adalah beberapa perintah pada DML </p>
+				<ul class="text-white" type="circle">
+					<li><b>INSERT</b> untuk menyisipkan atau memasukan dalam tabel</li>
+					<li><b>UPDATE</b> untuk memperbaharui data lama menjadi data terkini</li>
+					<li><b>DELETE</b> untuk menghapus datadari tabel</li>
+					<li><b>SELECT</b> untuk mengambil data atau menampilkan data dari satu tabel atau beberapa tabel</li>
+				</ul>
+				<hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+				
+		 <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        
+          <img class="img-fluid mb-3 mb-lg-0" src="search.png" width="600" height="600" alt="">
+        </div>
+        
+          <div class="featured-text text-center text-lg-left">
+                <h1>Full Text Searcing</h1>
+			<div class="row">
+                <p class="mb-0 text-black-50"><strong>Data Manipulation Language</strong> Salah satu metode yang dapat digunakan untuk melakukan proses pencarian adalah dengan memanfaatkan fungsi indexing pada database. 
+				<i>Full Text Searching</i>  merupakan proses pencarian data  pada database  MySQL.
+				<br>
+				<br>
+				
+				Berikut ini adalah definisi dari beberapa istilah yang sering di gunakan:
+					<br>
+					a.  <b> MySQL</b>, adalah sebuah perangkat lunak sistem manajemen basis data SQL atau DBMS yang bersifat multithread dan multiuser yang dikembangkan pertama kali oleh Michael Wildenius, bersifat free software dengan lisensi dibawah GPU/GPL (General Public license)
+					<br>
+					b.  <b>Boolean Search</b>, adalah sebuah metode pencarian yang memungkinkan pengguna untuk mempersempit hasil pencarian dengan menggunakan operator Boolean.
+					<br>
+					c.  <b>Full Text</b>, adalah fungsionalitas yang terdapat pada database (dalam hal ini database MySQL) yang memungkinkan user untuk melakukan pencarian tertentu dalam tabel dengan cara melakukan perbandingan string.
+					<br>
+					d.  <b>Boolean Operator</b>, adalah sistem logis deduktif yang digunakan untuk mempersempit hasil pencarian dengan menggunakan operator AND, OR, XOR dan lainnya.
+				<br>
+				<br>
+				Berikut beberapa tipe penggunaan Full-Tex Searching dengan menggunakan data contoh pada tabel article:
+					<br>
+					a.	<b><i>Natural Languange </i></b><br>
+					Secara dafault penggunaan Full-Text Searcing termasuk dalam tipe Natural Languange
+					<br>
+					b.	<b><i>Boolean</i></b><br>
+					Tipe Boolean mengijinkan pengguna operator pada keyword penacarian seperti – atau +.
+				<br>
+				<br>
+					
+					Berikut daftar operator yang dapat di gunakan:
+				<ul class="text-black" type="circle">
+					<li> [non operator] secara default memiliki arti “atau” / “or”. </li>
+					<li> + keyword harus terdapat pada semua hasil yang didapat. </li>
+					<li> - keyword tidak boleh ada pada hasil yang didapat. </li>
+					<li> > keyword termasuk pada hasil yang didapat dengan urutan berdasar ranking secara increase. </li>
+					<li> < keyword termasuk pada hasil yang didapat dengan urutan berdasar ranking secara decrease. </li>
+					<li> () digunakan untuk melakukan grouping/pengelompokan dan dapat menambahkan operator lain untuk meningkatkan relevansi hasil pencarian. </li>
+					<li> ~ berfungsi sebagai operator negasi, jika sebuah keyword diberikan tanda mengakibatkan relevansi/score minus. </li>
+					<li> * merupakan operator wildcard. </li>
+					<li> “ digunakan pada awal dan akhir keyword yang terdiri dari dua kata atau lebih. </li>
+				</ul>
+
+					<br>
+
+				
+				</br>
+				</br>
+				
+				
+
+</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">Sragen</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">agrielar2@gmail.com.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">083866375333</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
